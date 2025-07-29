@@ -23,6 +23,7 @@ def test_login(appium_driver):
     driver.find_element(AppiumBy.XPATH, "//input[@name='password']").send_keys("admin123")
     driver.find_element(AppiumBy.XPATH, "//button[@type='submit']").click()
     driver.implicitly_wait(10)
+    print("Login successfully")
     #driver.find_element(AppiumBy.XPATH, "// button[contains(text(), 'Login')]").click()
 
     # element = WebDriverWait(driver, 20).until(
