@@ -22,7 +22,7 @@ def test_flightBooking(appium_driver):
     try:
         element = WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((AppiumBy.XPATH, "(//div[@class='makeFlex flexOne'])[1]"))
-        )
+        )git
         element.click()
     except StaleElementReferenceException:
         print("StaleElementReferenceException occurred.")
