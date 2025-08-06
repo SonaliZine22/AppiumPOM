@@ -1,1 +1,1 @@
-[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":20,"buildName":"POMPython #20","buildUrl":"http://localhost:8080/job/POMPython/20/","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/POMPython/20/allure"}]
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":28,"buildName":"POMPython #28","buildUrl":"http://localhost:8080/job/POMPython/28/","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/POMPython/28/allure"}]
